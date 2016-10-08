@@ -285,7 +285,7 @@
 <li>默认的DOM结构为：#demo&gt;ul&gt;li*n。</li>
 <li>丰富配置、简单接口。</li>
 <li><p>注意：无缝滚动不支持prev、next操作，不支持onbeforechange、onafterchange回调。</p>
-<h4 id="2、插件参数"><a href="#2、插件参数" class="headerlink" title="2、插件参数"></a>2、插件参数</h4><p>‘<br> //默认参数<br> $.fn.scrollable={</p>
+<h4 id="2、插件参数"><a href="#2、插件参数" class="headerlink" title="2、插件参数"></a>2、插件参数</h4><p>`<br> //默认参数<br> $.fn.scrollable={</p>
 <pre><code>//内容区域选择器
 contentSelector:&quot;ul&quot;,
 //宽度，超过隐藏
@@ -310,9 +310,18 @@ duration:678,
  onbeforechange:emptyFn,
  //变化之后回调
  onafterchange:emptyFn
-</code></pre><p> }<br>‘</p>
-<h4 id="3、插件控制"><a href="#3、插件控制" class="headerlink" title="3、插件控制"></a>3、插件控制</h4><p>‘<br> //滚动到<br> $(“#demo”).scrollable(index[,duration][,callback]);<br> //播放<br> $(‘#demo’).scrollable(“play”);<br> //暂停<br> $(“#demo”).scrollable(“pause”);<br> //前<br> $(“#demo”).scrollable(“prev”);<br> //后<br> $(“#demo”).scrollable(“next”);<br>‘</p>
-<h4 id="4、demo及下载"><a href="#4、demo及下载" class="headerlink" title="4、demo及下载"></a>4、demo及下载</h4><p></p><p>demo:<a href="http://festatic.aliapp.com/js/jquery-scrollable/" target="_blank" rel="external">http://festatic.aliapp.com/js/jquery-scrollable/</a></p>s<p></p>
+</code></pre><p> }<br>`</p>
+<h4 id="3、插件控制"><a href="#3、插件控制" class="headerlink" title="3、插件控制"></a>3、插件控制</h4><p><code>//滚动到
+ $(&quot;#demo&quot;).scrollable(index[,duration][,callback]);
+ //播放
+ $(&#39;#demo&#39;).scrollable(&quot;play&quot;);
+ //暂停
+ $(&quot;#demo&quot;).scrollable(&quot;pause&quot;);
+ //前
+ $(&quot;#demo&quot;).scrollable(&quot;prev&quot;);
+ //后
+ $(&quot;#demo&quot;).scrollable(&quot;next&quot;);</code></p>
+<h4 id="4、demo及下载"><a href="#4、demo及下载" class="headerlink" title="4、demo及下载"></a>4、demo及下载</h4><p>demo:<a href="http://festatic.aliapp.com/js/jquery-scrollable/" target="_blank" rel="external">http://festatic.aliapp.com/js/jquery-scrollable/</a></p>
 </li>
 </ol>
 
