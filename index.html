@@ -172,7 +172,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            Startseite
           </a>
         </li>
       
@@ -182,7 +182,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            Archiv
           </a>
         </li>
       
@@ -248,7 +248,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-10-08T08:53:21+08:00" content="2016-10-08">
               2016-10-08
             </time>
@@ -279,7 +279,43 @@
       
         
           
-            <h3 id="前端工程师的价值体现在哪里？"><a href="#前端工程师的价值体现在哪里？" class="headerlink" title="前端工程师的价值体现在哪里？"></a>前端工程师的价值体现在哪里？</h3>
+            <h3 id="jquery插件：jquery-scrollable无限无缝循环滚动"><a href="#jquery插件：jquery-scrollable无限无缝循环滚动" class="headerlink" title="jquery插件：jquery-scrollable无限无缝循环滚动"></a>jquery插件：jquery-scrollable无限无缝循环滚动</h3><h4 id="1、插件介绍"><a href="#1、插件介绍" class="headerlink" title="1、插件介绍"></a>1、插件介绍</h4><ol>
+<li>支持无限无缝循环滚动。</li>
+<li>最小的限度的操作DOM，只在初始化的时候复制一次DOM，后续不会再操作ＤＯＭ，最大化性能。</li>
+<li>默认的DOM结构为：#demo&gt;ul&gt;li*n。</li>
+<li>丰富配置、简单接口。</li>
+<li><p>注意：无缝滚动不支持prev、next操作，不支持onbeforechange、onafterchange回调。</p>
+<h4 id="2、插件参数"><a href="#2、插件参数" class="headerlink" title="2、插件参数"></a>2、插件参数</h4><p>‘<br> //默认参数<br> $.fn.scrollable={</p>
+<pre><code>//内容区域选择器
+contentSelector:&quot;ul&quot;,
+//宽度，超过隐藏
+width:&quot;auto&quot;,
+//高度，超过隐藏
+height:&quot;auto&quot;,
+//滚动方向
+direction:&quot;top&quot;,
+//每次滚动的项目数量
+//如果为1，则每次滚动一个，暂停的时候会是某一个项目的结尾
+//如果为0，则无缝滚动，暂停的时候可能会是某一个项目的中间
+scrollNum:1,
+//延迟时间
+delay:2000,
+//动画时间，如果滚动数量为0，则滚动全部数量的动画时间
+duration:678,
+//是否自动播放
+ isAutoPlay:true,
+ //是否鼠标悬停暂停
+ isHoverPause:true,
+ //变化之前回调
+ onbeforechange:emptyFn,
+ //变化之后回调
+ onafterchange:emptyFn
+</code></pre><p> }<br>‘</p>
+<h4 id="3、插件控制"><a href="#3、插件控制" class="headerlink" title="3、插件控制"></a>3、插件控制</h4><p>‘<br> //滚动到<br> $(“#demo”).scrollable(index[,duration][,callback]);<br> //播放<br> $(‘#demo’).scrollable(“play”);<br> //暂停<br> $(“#demo”).scrollable(“pause”);<br> //前<br> $(“#demo”).scrollable(“prev”);<br> //后<br> $(“#demo”).scrollable(“next”);<br>‘</p>
+<h4 id="4、demo及下载"><a href="#4、demo及下载" class="headerlink" title="4、demo及下载"></a>4、demo及下载</h4><p></p><p>demo:<a href="http://festatic.aliapp.com/js/jquery-scrollable/" target="_blank" rel="external">http://festatic.aliapp.com/js/jquery-scrollable/</a></p>s<p></p>
+</li>
+</ol>
+
           
         
       
@@ -341,7 +377,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
             <time itemprop="dateCreated" datetime="2016-09-27T14:28:53+08:00" content="2016-09-27">
               2016-09-27
             </time>
@@ -451,7 +487,7 @@
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">posts</span>
+              <span class="site-state-item-name">Artikel</span>
             </a>
           </div>
 
@@ -498,7 +534,7 @@
 </div>
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
