@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[second]]></title>
+      <url>%2F2016%2F10%2F08%2Fsecond%2F</url>
+      <content type="text"><![CDATA[前端小白到大神，不可不收藏的15个网站1. lifehacker.com——Tips and downloads for getting things done是一个资源类聚合性网站，里面包含了程序员生活的各类资讯。在这里你可以见识到不同程序员的技术分享。 2. CodePe这个工具写前端代码最合适了，其包括了教学，分享和设计灵感的方方面面，里面提供了许多使用的功能，比如说分享代码，嵌入代码片等。 3. thenextweb.com是美国知名的科技博客，是了解外国最新初创企业的不错渠道，也是世界上最大的在线出版社之一。主要发布国际趋势，最新与因特网技术，商业和文化相关的新闻报道 4. dzone.comDzone是一个类似IT新闻形式的编程社区，用户可以在网站内分享最新的IT新闻和编程资源，其文章质量由内容管理员来把关，所以不用担心垃圾资讯 5. www.coursera.orgCoursera 是一个教育平台，它与全世界最顶尖的大学和机构合作，提供任何人可学习的免费在线课程。 6. techcrunch.comTechCrunch 是美国科技类博客，主要报道新兴互联网公司、评论互联网新产品、发布重大突发新闻。TechCrunch 目前已成为关注互联网和创业的重量级博客媒体，是美国互联网产业的风向标，里面的内容几乎成为VC和行业投资者的投资参考。 7. Hacker news—news.ycombinator.comHacker news是一个专注于计算机科学和创业精神社会新闻网站。里面的内容可以满足学习者的求知欲。 8. Smashing Magazine — For Professional Web Designers and Developers最棒的在线杂志之一，主要以博客的形式发布。该杂志主要研究web2.0技术，并为设计者和开发者都提供了很棒的内容。 9. CSS-TricksCSS-tricks是一个关于运用CSS技术进行网络开发和设计的小技巧的交流网站，里面有各类样式问题的解决方案以及深度思考 10. Dribbble.com质量最高的设计网站，没有之一！前端同学也可以常常逛逛提高审美~ 11. Can I use— Support tables for HTML5, CSS3, etc非常实用的兼容性查询网站 12. Webdesigner Depot网页设计资源网站，网页设计师必备，涵盖大量教程、工具、素材 13. www.reddit.com—the front page of the internetReddit是个社交新闻网站，它的口号是：提前于新闻发生，来自互联网的声音。 14. tutsplus.com—Envato tuts+TutsPlus是在Web开发人员和设计师提供的教程和技术文章的目的网站，技能和技巧，提高用户设计和建立网站的能力。 15. awwwards.comAwwwards是一家专业的网页设计和开发的综合体。它旨在表彰和推广的最佳创新的网页设计。]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[my new post]]></title>
+      <url>%2F2016%2F10%2F08%2Fmy-new-post%2F</url>
+      <content type="text"><![CDATA[jquery插件：jquery-scrollable无限无缝循环滚动1、插件介绍1. 支持无限无缝循环滚动。 2. 最小的限度的操作DOM，只在初始化的时候复制一次DOM，后续不会再操作ＤＯＭ，最大化性能。 3. 默认的DOM结构为：#demo&gt;ul&gt;li*n。 4. 丰富配置、简单接口。 5. 注意：无缝滚动不支持prev、next操作，不支持onbeforechange、onafterchange回调。 2、插件参数&lt;code&gt; //默认参数 $.fn.scrollable={ //内容区域选择器 contentSelector:&quot;ul&quot;, //宽度，超过隐藏 width:&quot;auto&quot;, //高度，超过隐藏 height:&quot;auto&quot;, //滚动方向 direction:&quot;top&quot;, //每次滚动的项目数量 //如果为1，则每次滚动一个，暂停的时候会是某一个项目的结尾 //如果为0，则无缝滚动，暂停的时候可能会是某一个项目的中间 scrollNum:1, //延迟时间 delay:2000, //动画时间，如果滚动数量为0，则滚动全部数量的动画时间 duration:678, //是否自动播放 isAutoPlay:true, //是否鼠标悬停暂停 isHoverPause:true, //变化之前回调 onbeforechange:emptyFn, //变化之后回调 onafterchange:emptyFn } &lt;/code&gt; 3、插件控制&lt;code&gt; //滚动到 $(&quot;#demo&quot;).scrollable(index[,duration][,callback]); //播放 $(&apos;#demo&apos;).scrollable(&quot;play&quot;); //暂停 $(&quot;#demo&quot;).scrollable(&quot;pause&quot;); //前 $(&quot;#demo&quot;).scrollable(&quot;prev&quot;); //后 $(&quot;#demo&quot;).scrollable(&quot;next&quot;); &lt;/code&gt; 4、demo及下载demo:http://festatic.aliapp.com/js/jquery-scrollable/]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>%2F2016%2F09%2F27%2Fhello-world%2F</url>
+      <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    </entry>
+
+    
+  
+  
+</search>
